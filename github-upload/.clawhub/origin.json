@@ -1,0 +1,15 @@
+{
+  "id": "github-upload",
+  "version": "1.0.0",
+  "createdAt": "2026-02-02T03:25:00.000Z",
+  "updatedAt": "2026-02-02T03:25:00.000Z",
+  "manifest": {
+    "name": "github-upload",
+    "description": "上传 OpenClaw skills 到 GitHub 仓库",
+    "scripts": ["scripts/upload_skill.py"],
+    "requirements": {
+      "python": ["gitpython"],
+      "cli": ["gh"]
+    }
+  }
+}

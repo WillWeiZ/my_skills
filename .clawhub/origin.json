@@ -1,0 +1,1 @@
+{"id": "stock-a-quotes", "version": "1.0.0", "createdAt": "2026-02-02T02:44:00.000Z", "updatedAt": "2026-02-02T11:13:00.000Z", "manifest": {"name": "stock-a-quotes", "description": "查询 A 股实时行情数据", "scripts": ["scripts/stock_price.py"], "requirements": {"python": ["requests>=2.25.0"]}}}
